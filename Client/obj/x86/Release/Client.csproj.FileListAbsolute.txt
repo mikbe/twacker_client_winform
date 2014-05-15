@@ -1,0 +1,12 @@
+D:\Copy\Development\DotNet\Twacker\Client\bin\Release\TwackerClient.exe.config
+D:\Copy\Development\DotNet\Twacker\Client\bin\Release\TwackerClient.exe
+D:\Copy\Development\DotNet\Twacker\Client\bin\Release\TwackerClient.pdb
+D:\Copy\Development\DotNet\Twacker\Client\bin\Release\Newtonsoft.Json.dll
+D:\Copy\Development\DotNet\Twacker\Client\bin\Release\nunit.framework.dll
+D:\Copy\Development\DotNet\Twacker\Client\bin\Release\nunit.framework.xml
+D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\Twacker.Chat.resources
+D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\Twacker.Properties.Resources.resources
+D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\Twacker.SettingsForm.resources
+D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\Client.csproj.GenerateResource.Cache
+D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\TwackerClient.exe
+D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\TwackerClient.pdb
