@@ -1,4 +1,4 @@
-﻿## Twacker  
+## Twacker  
 ### A text-to-speech chat reader for Twitch
 
 #### To Do
