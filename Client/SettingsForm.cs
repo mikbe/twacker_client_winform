@@ -20,8 +20,7 @@ namespace Twacker
             this.botUserName.Text = Properties.Settings.Default.UserName;
             this.channelName.Text = Properties.Settings.Default.Channel;
 
-            Debug.WriteLine("user: " + Properties.Settings.Default.UserName);
-            Debug.WriteLine("channel: " + Properties.Settings.Default.Channel);
+            this.AcceptButton = this.saveButton;
         }
 
         private void saveButton_Click(object sender, EventArgs e)

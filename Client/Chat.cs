@@ -47,8 +47,13 @@ namespace Twacker
                 )
             {
                 SettingsForm settings = new SettingsForm();
-                settings.ShowDialog();
+                DialogResult save_or_cancel = settings.ShowDialog();
                 settings = null;
+                Debug.WriteLine(save_or_cancel.ToString());
+                if (save_or_cancel == System.Windows.Forms.DialogResult.Cancel)
+                {
+                    writeText("system: settings cancelled");
+                }
             }
         }
 
@@ -123,7 +128,7 @@ namespace Twacker
                 writeText(m);
                 if (m.ToLower() == "login unsuccessful")
                 {
-                    DialogResult result = MessageBox.Show("Do you want to retry?", "Login Failure", MessageBoxButtons.RetryCancel);
+                    DialogResult result = MessageBox.Show("Do you want to reset your login?", "Login Failure", MessageBoxButtons.RetryCancel);
                     if (result == System.Windows.Forms.DialogResult.Retry)
                     { reauthorize(); }
                 }
@@ -150,6 +155,13 @@ namespace Twacker
         private void authorize()
         {
             clearStatus();
+
+            if (Properties.Settings.Default.UserName == "" ||
+                Properties.Settings.Default.Channel == "")
+            {
+                writeText("system: can't login without a user name or channel");
+                return;
+            }
 
             if (Properties.Settings.Default.OAuthPassword == "")
             {
@@ -197,6 +209,11 @@ namespace Twacker
             Properties.Settings.Default.OAuthPassword = password;
             Properties.Settings.Default.Save();
             writeText("Authorized");
+            connect();
+        }
+
+        private void connect()
+        {
             showStatus();
             startIrcClient();
             startFollowersWatcher();
@@ -295,6 +312,33 @@ namespace Twacker
                 restartIrcClient();
             }
             
+        }
+
+        private void loginButton_Click(object sender, EventArgs e)
+        {
+            if (_ircClient.Connected)
+            {
+                writeText("already connected");
+            }
+            else if (Properties.Settings.Default.UserName == "" || Properties.Settings.Default.Channel == "")
+            {
+                DialogResult result = MessageBox.Show("You must fill out your user name and channel to run this app.\nDo you want to complete the configuration?", "Not Configured", MessageBoxButtons.YesNo);
+                if (result == System.Windows.Forms.DialogResult.Yes)
+                {
+                    getUserSettings();
+                    this.loginButton.PerformClick();
+                }            
+            }
+            else if (Properties.Settings.Default.OAuthPassword == "")
+            {
+                DialogResult result = MessageBox.Show("You haven't authorized Twacker yet. Would you like to authorize?", "Not Authorized", MessageBoxButtons.YesNo);
+                if (result == System.Windows.Forms.DialogResult.Yes)
+                { authorize(); }
+            }
+            else
+            {
+                connect();
+            }
         }
 
     }

@@ -39,6 +39,7 @@
             this.container3 = new System.Windows.Forms.SplitContainer();
             this.chatEntry = new System.Windows.Forms.TextBox();
             this.sendChat = new System.Windows.Forms.Button();
+            this.loginButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.container1)).BeginInit();
             this.container1.Panel1.SuspendLayout();
             this.container1.Panel2.SuspendLayout();
@@ -67,6 +68,7 @@
             // 
             // container1.Panel1
             // 
+            this.container1.Panel1.Controls.Add(this.loginButton);
             this.container1.Panel1.Controls.Add(this.logoutButton);
             this.container1.Panel1.Controls.Add(this.statusLabel);
             this.container1.Panel1.Controls.Add(this.settingsButton);
@@ -209,6 +211,18 @@
             this.sendChat.UseVisualStyleBackColor = false;
             this.sendChat.Click += new System.EventHandler(this.sendChat_Click);
             // 
+            // loginButton
+            // 
+            this.loginButton.Dock = System.Windows.Forms.DockStyle.Right;
+            this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.loginButton.Location = new System.Drawing.Point(669, 0);
+            this.loginButton.Name = "loginButton";
+            this.loginButton.Size = new System.Drawing.Size(82, 33);
+            this.loginButton.TabIndex = 3;
+            this.loginButton.Text = "login";
+            this.loginButton.UseVisualStyleBackColor = true;
+            this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
+            // 
             // Chat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -253,5 +267,6 @@
         private System.Windows.Forms.Label statusLabel;
         private System.Windows.Forms.ListBox chatMembers;
         private System.Windows.Forms.Button logoutButton;
+        private System.Windows.Forms.Button loginButton;
     }
 }

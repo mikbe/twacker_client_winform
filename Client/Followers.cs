@@ -21,6 +21,9 @@ namespace Twacker
         public DateTime FollowDate { get; set; }
         public DateTime UnfollowDate { get; set; }
 
+
+        // It might be a better idea to use the person's ID instead of their name
+        // but you can't change names so the point seems moot.
         public override int GetHashCode()
         {
             return this.Name.GetHashCode();
@@ -122,6 +125,11 @@ namespace Twacker
             // get the followers that are in the cache but not in the twitch follower list
             List<Follower> unfollowed = _followerCache.Except<Follower>(followers).ToList<Follower>();
 
+            // These are done in two steps for debugging.
+            // In the final version you can get rid of
+            // the intermidiary List<Follower> objects.
+
+            // not in the current followers but don't have an unfollow set so these are new
             List<Follower> newlyUnfollowed = _followerCache.Join
                 <Follower, Follower, string, Follower>
                 (unfollowed, uf => uf.Name, f => f.Name, (uf, f) => uf)
@@ -132,7 +140,6 @@ namespace Twacker
             { f.UnfollowDate = utcNow; });
 
             // Remove unfollows that are older than the cuttoff
-            // There's probably a way to do this in one call.
             List<Follower> deletable = _followerCache.Join
                 <Follower, Follower, string, Follower>
                 (unfollowed, uf => uf.Name, f => f.Name, (uf, f) => uf)
