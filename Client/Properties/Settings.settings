@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Twacker.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OAuthServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://twacker.herokuapp.com</Value>
+    </Setting>
+    <Setting Name="OAuthPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UserName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Channel" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="IrcServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">irc.twitch.tv</Value>
+    </Setting>
+    <Setting Name="IrcPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">6667</Value>
+    </Setting>
+    <Setting Name="IRCRateLimitMilliseconds" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1500</Value>
+    </Setting>
+    <Setting Name="FollowersBufferMinutes" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="TwitchAPIServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://api.twitch.tv/kraken</Value>
+    </Setting>
+    <Setting Name="ReminderTimerMins" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">11</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
