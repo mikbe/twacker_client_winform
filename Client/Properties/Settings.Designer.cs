@@ -37,7 +37,7 @@ namespace Twacker.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("oauth:qfiw36422oj83l246vpg0lqnzt4qtpc")]
         public string OAuthPassword {
             get {
                 return ((string)(this["OAuthPassword"]));
@@ -49,7 +49,7 @@ namespace Twacker.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("mikbetkbot")]
         public string UserName {
             get {
                 return ((string)(this["UserName"]));
@@ -61,7 +61,7 @@ namespace Twacker.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("mikbetk")]
         public string Channel {
             get {
                 return ((string)(this["Channel"]));
@@ -140,6 +140,18 @@ namespace Twacker.Properties {
             }
             set {
                 this["ReminderTimerMins"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("1")]
+        public int SpeechRate {
+            get {
+                return ((int)(this["SpeechRate"]));
+            }
+            set {
+                this["SpeechRate"] = value;
             }
         }
     }

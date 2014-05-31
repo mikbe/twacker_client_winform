@@ -25,6 +25,8 @@ namespace Twacker
 
             this.AcceptButton = this.sendChat;
 
+            Debug.Write("+++++ " + Properties.Settings.Default.OAuthPassword);
+            Speech.Say("Twaacker is loadeding...");
             _oauth = new OAuth();
 
             getUserSettings();
@@ -102,7 +104,7 @@ namespace Twacker
             _ircClient.OnConnect += () =>
             {
                 _ircClient.JoinChannel(channelName());
-                say("Twaacker Connected to the IRC Server");
+                say("Twaacker has connected to the I.R.C. Server");
             };
             _ircClient.UserJoined += (c, u) =>
             {
@@ -121,7 +123,7 @@ namespace Twacker
             };
             _ircClient.UserLeft += (c, u) =>
              {
-                 say(u + "left your channel.", u);
+                 say("The user " + u + ", has left your channel.", u);
              };
             _ircClient.NoticeMessage += (c, m) =>
             {

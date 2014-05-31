@@ -15,26 +15,38 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_4A6E9E503547B45D881DD7F1217CC27E"
-        "OwnerKey" = "8:_5FF3C2576E2D49BBB6C59211DC38EFC9"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_5FF3C2576E2D49BBB6C59211DC38EFC9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_4A6E9E503547B45D881DD7F1217CC27E"
+        "MsmKey" = "8:_66EFA0419E6142EAB7CE0B8030F9F988"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FCFFFA04A7B553FB2281446435A2EB3C"
+        "OwnerKey" = "8:_5FF3C2576E2D49BBB6C59211DC38EFC9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_5FF3C2576E2D49BBB6C59211DC38EFC9"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_FCFFFA04A7B553FB2281446435A2EB3C"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_4A6E9E503547B45D881DD7F1217CC27E"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +67,27 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.0,Profile=Client"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4 Client Profile (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.0,Profile=Client"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.Windows.Installer.3.1"
+                    {
+                    "Name" = "8:Windows Installer 3.1"
+                    "ProductCode" = "8:Microsoft.Windows.Installer.3.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -152,6 +185,57 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_66EFA0419E6142EAB7CE0B8030F9F988"
+            {
+            "SourcePath" = "8:..\\Client\\headphones.ico"
+            "TargetName" = "8:headphones.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_67282D830BC1479881FB00774CB8D59B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FCFFFA04A7B553FB2281446435A2EB3C"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_FCFFFA04A7B553FB2281446435A2EB3C"
+                    {
+                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Newtonsoft.Json.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_9F61DAC55374442FB7DBCFC8FCDAF89A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
         }
         "FileType"
         {
@@ -160,9 +244,9 @@
         {
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_67282D830BC1479881FB00774CB8D59B"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFilesFolder]\\[ProductName]"
             "Name" = "8:#1925"
-            "AlwaysCreate" = "11:FALSE"
+            "AlwaysCreate" = "11:TRUE"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Property" = "8:TARGETDIR"
@@ -175,7 +259,7 @@
             "Name" = "8:#1916"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
-            "Transitive" = "11:FALSE"
+            "Transitive" = "11:TRUE"
             "Property" = "8:DesktopFolder"
                 "Folders"
                 {
@@ -186,7 +270,7 @@
             "Name" = "8:#1919"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
-            "Transitive" = "11:FALSE"
+            "Transitive" = "11:TRUE"
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
@@ -207,25 +291,25 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:Twacker Setup"
-        "ProductCode" = "8:{F5A8286D-FF1B-4AC7-B24E-B9D2FEC0869E}"
-        "PackageCode" = "8:{C88714F7-4655-40D1-8378-4BA9CAF8AB63}"
+        "ProductName" = "8:Twacker"
+        "ProductCode" = "8:{DBE8BC8C-AC64-459D-ABA9-95DB3947DCCE}"
+        "PackageCode" = "8:{A3B31000-3670-46DA-961A-362CA093B698}"
         "UpgradeCode" = "8:{6022F0E5-EF7D-4055-9D1B-890A590659C5}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
-        "RemovePreviousVersions" = "11:FALSE"
-        "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "RemovePreviousVersions" = "11:TRUE"
+        "DetectNewerInstalledVersion" = "11:FALSE"
+        "InstallAllUsers" = "11:TRUE"
+        "ProductVersion" = "8:1.0.2"
+        "Manufacturer" = "8:Mike Bethany Software Design"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Twacker Setup"
+        "Title" = "8:Twacker"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:Mike Bethany"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:"
-        "ARPURLINFOABOUT" = "8:"
+        "ARPCOMMENTS" = "8:A text-to-speech chat reader for Twitch."
+        "ARPURLINFOABOUT" = "8:http://mikebethany.com"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
@@ -329,6 +413,34 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_72DBC68781C74F7F8DE08AB64564952B"
+            {
+            "Name" = "8:Twacker"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_5FF3C2576E2D49BBB6C59211DC38EFC9"
+            "Folder" = "8:_BC41072B71AE4CD6AF7922020A035B38"
+            "WorkingFolder" = "8:_67282D830BC1479881FB00774CB8D59B"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7DCA647461934109AAFB1CE54E9B938B"
+            {
+            "Name" = "8:Twacker"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_5FF3C2576E2D49BBB6C59211DC38EFC9"
+            "Folder" = "8:_9F61DAC55374442FB7DBCFC8FCDAF89A"
+            "WorkingFolder" = "8:_67282D830BC1479881FB00774CB8D59B"
+            "Icon" = "8:_66EFA0419E6142EAB7CE0B8030F9F988"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {

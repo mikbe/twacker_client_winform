@@ -15,14 +15,29 @@ namespace Twacker
     {
         private static SpeechSynthesizer _speaker = new SpeechSynthesizer();
 
+        private static DateTime lastZeno = new DateTime();
+
         public static void Say(string text) 
         {
+            _speaker.Rate = Properties.Settings.Default.SpeechRate;
             ThreadPool.QueueUserWorkItem(queuedSay, text);
         }
 
-        private static void queuedSay(object text)
+        private static void queuedSay(object oText)
         {
-            _speaker.Speak(text.ToString());
+            string text = (string)oText;
+            if (text.IndexOf("Zeno_magatama") == 0)
+            {
+                if (DateTime.Now > lastZeno.AddMinutes(1))
+                {
+                    lastZeno = DateTime.Now;
+                    _speaker.Speak("Matt Damone said something about pie... probably.");
+                }
+            }
+            else
+            {
+                _speaker.Speak(text.ToString());
+            }
         }
 
     }

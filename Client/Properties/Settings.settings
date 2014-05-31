@@ -6,13 +6,13 @@
       <Value Profile="(Default)">http://twacker.herokuapp.com</Value>
     </Setting>
     <Setting Name="OAuthPassword" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">oauth:qfiw36422oj83l246vpg0lqnzt4qtpc</Value>
     </Setting>
     <Setting Name="UserName" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">mikbetkbot</Value>
     </Setting>
     <Setting Name="Channel" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">mikbetk</Value>
     </Setting>
     <Setting Name="IrcServer" Type="System.String" Scope="User">
       <Value Profile="(Default)">irc.twitch.tv</Value>
@@ -31,6 +31,9 @@
     </Setting>
     <Setting Name="ReminderTimerMins" Type="System.Int32" Scope="User">
       <Value Profile="(Default)">11</Value>
+    </Setting>
+    <Setting Name="SpeechRate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -77,7 +77,7 @@
             this.cancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.cancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cancelButton.Location = new System.Drawing.Point(325, 105);
+            this.cancelButton.Location = new System.Drawing.Point(325, 223);
             this.cancelButton.Name = "cancelButton";
             this.cancelButton.Size = new System.Drawing.Size(108, 45);
             this.cancelButton.TabIndex = 4;
@@ -91,7 +91,7 @@
             this.saveButton.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.saveButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.saveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saveButton.Location = new System.Drawing.Point(194, 105);
+            this.saveButton.Location = new System.Drawing.Point(194, 223);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(108, 45);
             this.saveButton.TabIndex = 3;
@@ -103,7 +103,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(448, 162);
+            this.ClientSize = new System.Drawing.Size(448, 280);
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.channelName);
