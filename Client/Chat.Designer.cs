@@ -84,9 +84,9 @@
             // 
             this.loginButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.loginButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.loginButton.Location = new System.Drawing.Point(669, 0);
+            this.loginButton.Location = new System.Drawing.Point(696, 0);
             this.loginButton.Name = "loginButton";
-            this.loginButton.Size = new System.Drawing.Size(82, 33);
+            this.loginButton.Size = new System.Drawing.Size(67, 33);
             this.loginButton.TabIndex = 3;
             this.loginButton.Text = "login";
             this.loginButton.UseVisualStyleBackColor = true;
@@ -96,11 +96,11 @@
             // 
             this.logoutButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.logoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logoutButton.Location = new System.Drawing.Point(751, 0);
+            this.logoutButton.Location = new System.Drawing.Point(763, 0);
             this.logoutButton.Name = "logoutButton";
-            this.logoutButton.Size = new System.Drawing.Size(123, 33);
+            this.logoutButton.Size = new System.Drawing.Size(117, 33);
             this.logoutButton.TabIndex = 2;
-            this.logoutButton.Text = "erase all settings";
+            this.logoutButton.Text = "erase settings";
             this.logoutButton.UseVisualStyleBackColor = true;
             this.logoutButton.Click += new System.EventHandler(this.logoutButton_Click);
             // 
@@ -118,9 +118,9 @@
             // 
             this.settingsButton.Dock = System.Windows.Forms.DockStyle.Right;
             this.settingsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.settingsButton.Location = new System.Drawing.Point(874, 0);
+            this.settingsButton.Location = new System.Drawing.Point(880, 0);
             this.settingsButton.Name = "settingsButton";
-            this.settingsButton.Size = new System.Drawing.Size(70, 33);
+            this.settingsButton.Size = new System.Drawing.Size(64, 33);
             this.settingsButton.TabIndex = 0;
             this.settingsButton.Text = "config";
             this.settingsButton.UseVisualStyleBackColor = true;

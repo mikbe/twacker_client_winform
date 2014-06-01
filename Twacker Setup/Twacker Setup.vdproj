@@ -15,13 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_5FF3C2576E2D49BBB6C59211DC38EFC9"
+        "MsmKey" = "8:_2353BEC0CA224BC592A3DB0BFA07287E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_66EFA0419E6142EAB7CE0B8030F9F988"
+        "MsmKey" = "8:_5FF3C2576E2D49BBB6C59211DC38EFC9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -154,6 +154,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2353BEC0CA224BC592A3DB0BFA07287E"
+            {
+            "SourcePath" = "8:..\\Readme.md"
+            "TargetName" = "8:Readme.md"
+            "Tag" = "8:"
+            "Folder" = "8:_67282D830BC1479881FB00774CB8D59B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_4A6E9E503547B45D881DD7F1217CC27E"
             {
             "AssemblyRegister" = "3:1"
@@ -183,26 +203,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_66EFA0419E6142EAB7CE0B8030F9F988"
-            {
-            "SourcePath" = "8:..\\Client\\headphones.ico"
-            "TargetName" = "8:headphones.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_67282D830BC1479881FB00774CB8D59B"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FCFFFA04A7B553FB2281446435A2EB3C"
@@ -292,15 +292,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Twacker"
-        "ProductCode" = "8:{DBE8BC8C-AC64-459D-ABA9-95DB3947DCCE}"
-        "PackageCode" = "8:{A3B31000-3670-46DA-961A-362CA093B698}"
+        "ProductCode" = "8:{3F8265DE-9E99-43F2-A2AA-F9C88B62D15E}"
+        "PackageCode" = "8:{34389D1D-7EAD-4FCA-9DB8-DDA94DD61399}"
         "UpgradeCode" = "8:{6022F0E5-EF7D-4055-9D1B-890A590659C5}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
-        "DetectNewerInstalledVersion" = "11:FALSE"
+        "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.2"
+        "ProductVersion" = "8:1.0.3"
         "Manufacturer" = "8:Mike Bethany Software Design"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -308,7 +308,7 @@
         "Subject" = "8:"
         "ARPCONTACT" = "8:Mike Bethany"
         "Keywords" = "8:"
-        "ARPCOMMENTS" = "8:A text-to-speech chat reader for Twitch."
+        "ARPCOMMENTS" = "8:The Ultimate Bot for Twitch"
         "ARPURLINFOABOUT" = "8:http://mikebethany.com"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
@@ -433,12 +433,12 @@
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
+            "IconIndex" = "3:32512"
             "Transitive" = "11:FALSE"
             "Target" = "8:_5FF3C2576E2D49BBB6C59211DC38EFC9"
             "Folder" = "8:_9F61DAC55374442FB7DBCFC8FCDAF89A"
             "WorkingFolder" = "8:_67282D830BC1479881FB00774CB8D59B"
-            "Icon" = "8:_66EFA0419E6142EAB7CE0B8030F9F988"
+            "Icon" = "8:_5FF3C2576E2D49BBB6C59211DC38EFC9"
             "Feature" = "8:"
             }
         }

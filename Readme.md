@@ -1,5 +1,10 @@
 # Twacker  
-## A text-to-speech chat reader for Twitch
+## The Ultimate Bot for Twitch
+
+### Description
+I started this as a simple text-to-speech chat reader but kept wanting more features. Now I'm turning it into a more full featured bot application that will be easy to add more features using a plugin system.  
+
+It's mostly a chat-bot but will also have features like being able to output files for use in apps like OBS or XSplit.
 
 ### Instructions
 
@@ -14,13 +19,17 @@
 **Config**  
 Let's you change the channel or user.  
 
-**Erase all settings**  
-Exactly what it sounds like.  
+**Erase settings**  
+Erases your username, follow channel, and oauth password.  
 It also forces a logout from Twitch just to be safe.  
 This is really just for testing: if you change your  
 user name it forces a log out as well.  
 
-### To Do
+**Logout**  
+This forcefully logs you out of Twitch but does not erase your username or follow channel.  
+The app will ask if you want to logout if it can't login but if you say no you can then press this button to do it manually.
+
+### Planned Features
 
 This is a VERY basic app right now and still needs quite a few things.  
 
@@ -42,10 +51,19 @@ This is a VERY basic app right now and still needs quite a few things.
 
 ## Licenses
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Twacker Client</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://mikebethany.com" property="cc:attributionName" rel="cc:attributionURL">Mike Bethany</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/mikbe/twacker_client_winform" rel="dct:source">https://github.com/mikbe/twacker_client_winform</a>.
-
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+	<img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+</a>
+<br />
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Twacker Client</span> by 
+<a xmlns:cc="http://creativecommons.org/ns#" href="http://mikebethany.com" property="cc:attributionName" rel="cc:attributionURL">Mike Bethany</a>
+is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+Creative Commons Attribution-ShareAlike 4.0 International License
+</a>.
+<br />
+Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" 
+href="https://github.com/mikbe/twacker_client_winform" rel="dct:source">
+https://github.com/mikbe/twacker_client_winform</a>.
 
 Icon license:
-Icon by [Icons by DryIcons](http://dryicons.com/). Not for commercial use.  
-In other words you need a different icon if you want to sell a commercial version of this code.  
-[Full license](http://dryicons.com/terms/free/)  
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/StillImage" property="dct:title" rel="dct:type">Twacker Icon</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://mikebethany.com" property="cc:attributionName" rel="cc:attributionURL">Mike Bethany</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/mikbe/twacker_client_winform" rel="dct:source">https://github.com/mikbe/twacker_client_winform</a>.

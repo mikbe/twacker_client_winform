@@ -1,18 +1,9 @@
 D:\Copy\Development\DotNet\Twacker\Client\bin\Release\TwackerClient.exe.config
 D:\Copy\Development\DotNet\Twacker\Client\bin\Release\TwackerClient.exe
 D:\Copy\Development\DotNet\Twacker\Client\bin\Release\Newtonsoft.Json.dll
+D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\Client.csprojResolveAssemblyReference.cache
 D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\Twacker.Chat.resources
 D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\Twacker.Properties.Resources.resources
 D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\Twacker.SettingsForm.resources
 D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\Client.csproj.GenerateResource.Cache
 D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\TwackerClient.exe
-D:\Copy\Development\DotNet\Twacker\Client\obj\x86\Release\Client.csprojResolveAssemblyReference.cache
-H:\Copy mike@mikebethany.com\Development\DotNet\Twacker\Client\bin\Release\TwackerClient.exe.config
-H:\Copy mike@mikebethany.com\Development\DotNet\Twacker\Client\bin\Release\TwackerClient.exe
-H:\Copy mike@mikebethany.com\Development\DotNet\Twacker\Client\bin\Release\Newtonsoft.Json.dll
-H:\Copy mike@mikebethany.com\Development\DotNet\Twacker\Client\obj\x86\Release\Client.csprojResolveAssemblyReference.cache
-H:\Copy mike@mikebethany.com\Development\DotNet\Twacker\Client\obj\x86\Release\Twacker.Chat.resources
-H:\Copy mike@mikebethany.com\Development\DotNet\Twacker\Client\obj\x86\Release\Twacker.Properties.Resources.resources
-H:\Copy mike@mikebethany.com\Development\DotNet\Twacker\Client\obj\x86\Release\Twacker.SettingsForm.resources
-H:\Copy mike@mikebethany.com\Development\DotNet\Twacker\Client\obj\x86\Release\Client.csproj.GenerateResource.Cache
-H:\Copy mike@mikebethany.com\Development\DotNet\Twacker\Client\obj\x86\Release\TwackerClient.exe
