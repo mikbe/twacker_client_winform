@@ -98,8 +98,9 @@ namespace Twacker
             // tee, hee, hee
             _ircClient.ChannelMessage += (c, u, m) =>
             {
-                writeText(u + ": " + m);
-                say(u + " " + m, u);
+                string text = u + ": " + m;
+                writeText(text);
+                say(text, u);
             };
             _ircClient.OnConnect += () =>
             {

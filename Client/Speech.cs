@@ -26,13 +26,17 @@ namespace Twacker
         private static void queuedSay(object oText)
         {
             string text = (string)oText;
-            if (text.IndexOf("Zeno_magatama") == 0)
+            if (text.ToLower().IndexOf("zeno_magatama") == 0)
             {
                 if (DateTime.Now > lastZeno.AddMinutes(1))
                 {
                     lastZeno = DateTime.Now;
                     _speaker.Speak("Matt Damone said something about pie... probably.");
                 }
+            }
+            else if (text.IndexOf(": !") > 0)
+            { 
+                // do nothing
             }
             else
             {
